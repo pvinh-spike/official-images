@@ -1,12 +1,62 @@
-Maintainers: Rene Schuenemann <sapmachine@sap.com> (@reshnm)
+Maintainers: Christoph Langer <sapmachine@sap.com> (@realclanger), Christian Halstrick <sapmachine@sap.com> (@chalstrick)
 GitRepo: https://github.com/SAP/SapMachine-infrastructure.git
 
-Tags: 16, 16.0.1, latest
-Architectures: amd64
-GitCommit: 0449b4147caed3eb6fcf46ef3301d12af13e819a
-Directory: dockerfiles/official/stable
+Tags: jre-headless-ubuntu-11, jre-headless-ubuntu-11.0.20
+Architectures: amd64, arm64v8, ppc64le
+GitCommit: 03a69c14ccf4cdb173bb67823d779770bcb44d72
+Directory: dockerfiles/official/11/ubuntu/jre-headless
 
-Tags: 11, 11.0.11, lts
-Architectures: amd64
-GitCommit: ee2eebb7494ba8ba3a18e43be50aac47913c310a
-Directory: dockerfiles/official/lts
+Tags: jre-ubuntu-11, jre-ubuntu-11.0.20
+Architectures: amd64, arm64v8, ppc64le
+GitCommit: 03a69c14ccf4cdb173bb67823d779770bcb44d72
+Directory: dockerfiles/official/11/ubuntu/jre
+
+Tags: jdk-headless-ubuntu-11, jdk-headless-ubuntu-11.0.20
+Architectures: amd64, arm64v8, ppc64le
+GitCommit: 03a69c14ccf4cdb173bb67823d779770bcb44d72
+Directory: dockerfiles/official/11/ubuntu/jdk-headless
+
+Tags: jdk-ubuntu-11, jdk-ubuntu-11.0.20, 11, 11.0.20
+Architectures: amd64, arm64v8, ppc64le
+GitCommit: 03a69c14ccf4cdb173bb67823d779770bcb44d72
+Directory: dockerfiles/official/11/ubuntu/jdk
+
+Tags: jre-headless-ubuntu-17, jre-headless-ubuntu-17.0.8, jre-headless-ubuntu-lts
+Architectures: amd64, arm64v8, ppc64le
+GitCommit: 2d4f3b8850a40a6ab8ea0322f05cc05ed19d0f4e
+Directory: dockerfiles/official/17/ubuntu/jre-headless
+
+Tags: jre-ubuntu-17, jre-ubuntu-17.0.8, jre-ubuntu-lts
+Architectures: amd64, arm64v8, ppc64le
+GitCommit: 2d4f3b8850a40a6ab8ea0322f05cc05ed19d0f4e
+Directory: dockerfiles/official/17/ubuntu/jre
+
+Tags: jdk-headless-ubuntu-17, jdk-headless-ubuntu-17.0.8, jdk-headless-ubuntu-lts
+Architectures: amd64, arm64v8, ppc64le
+GitCommit: 2d4f3b8850a40a6ab8ea0322f05cc05ed19d0f4e
+Directory: dockerfiles/official/17/ubuntu/jdk-headless
+
+Tags: jdk-ubuntu-17, jdk-ubuntu-17.0.8, jdk-ubuntu-lts, 17, 17.0.8, lts
+Architectures: amd64, arm64v8, ppc64le
+GitCommit: 2d4f3b8850a40a6ab8ea0322f05cc05ed19d0f4e
+Directory: dockerfiles/official/17/ubuntu/jdk
+
+Tags: jre-headless-ubuntu-20, jre-headless-ubuntu-20.0.2, jre-headless-ubuntu
+Architectures: amd64, arm64v8, ppc64le
+GitCommit: d8d71766093af433437a77900cba0839781f54c1
+Directory: dockerfiles/official/20/ubuntu/jre-headless
+
+Tags: jre-ubuntu-20, jre-ubuntu-20.0.2, jre-ubuntu
+Architectures: amd64, arm64v8, ppc64le
+GitCommit: d8d71766093af433437a77900cba0839781f54c1
+Directory: dockerfiles/official/20/ubuntu/jre
+
+Tags: jdk-headless-ubuntu-20, jdk-headless-ubuntu-20.0.2, jdk-headless-ubuntu
+Architectures: amd64, arm64v8, ppc64le
+GitCommit: d8d71766093af433437a77900cba0839781f54c1
+Directory: dockerfiles/official/20/ubuntu/jdk-headless
+
+Tags: jdk-ubuntu-20, jdk-ubuntu-20.0.2, jdk-ubuntu, 20, 20.0.2, latest
+Architectures: amd64, arm64v8, ppc64le
+GitCommit: d8d71766093af433437a77900cba0839781f54c1
+Directory: dockerfiles/official/20/ubuntu/jdk
